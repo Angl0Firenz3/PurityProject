@@ -16,4 +16,6 @@ Modules used (Install if any are missing):
 * Selenium
 
 
+(This is in Spanish, we will soon try to create a version in other languages)
+
 
