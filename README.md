@@ -14,6 +14,7 @@ Modules used (Install if any are missing):
 * gtts
 * Datetime
 * Selenium
+* Playsound
 
 
 (This is in Spanish, we will soon try to create a version in other languages)
