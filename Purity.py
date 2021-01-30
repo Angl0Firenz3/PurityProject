@@ -60,7 +60,7 @@ from selenium import webdriver
 today = datetime.now()
 lenguaje = 'es'
 menu_loop = True
-#voice_out = str(uuid.uuid4()) + ".mp3"
+voice_out = str(uuid.uuid4()) + ".mp3"
 
 
 try:
