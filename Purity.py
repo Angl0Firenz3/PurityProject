@@ -66,14 +66,12 @@ try:
 
 
 		while menu_loop == True:
-			print("Hola, En que puedo ayudarte?")
-			print()
+			print("Hola, En que puedo ayudarte?\n\n")
 			print("1. Decirte la fecha y hora actual")
 			print("2. Mostrarte el calendario de este año")
 			print("3. Probar el TTS de google")
 			print("4. Realizar operaciones matematicas")
-			print("5. Realizar una busqueda en internet")
-			print()
+			print("5. Realizar una busqueda en internet\n\n")
 			opcion = int(input("Opcion Deseada: "))
 			print()
 
@@ -117,9 +115,12 @@ try:
 					audio.save(voice_out)
 					playsound.playsound(voice_out)
 					remove(voice_out)
-					os.system("cls")
+					
 
-				print(prueba_tts())
+				#print(prueba_tts())
+				print("Accion no disponible todavia")
+				msvcrt.getch()
+				os.system("cls")
 
 			elif opcion == 4:
 
