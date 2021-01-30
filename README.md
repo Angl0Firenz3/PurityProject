@@ -18,4 +18,4 @@ Modules used (Install if any are missing):
 
 (This is in Spanish, we will soon try to create a version in other languages)
 
-
+(Note: For the search option to work correctly, you must add the path where the 'geckodriver.exe' file was installed in the PATH variable in the system environment variables option)
