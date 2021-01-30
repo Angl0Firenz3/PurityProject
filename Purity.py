@@ -2,6 +2,9 @@
 #P-B/HBSDCS
 #Powered by Vent-Dev
 #Original Code By Diego Mendoza
+#Ver. 0.1.2
+#Jan 29 2021
+#21:37
 
 #import sqlite3
 
@@ -57,7 +60,7 @@ from selenium import webdriver
 today = datetime.now()
 lenguaje = 'es'
 menu_loop = True
-voice_out = str(uuid.uuid4()) + ".mp3"
+#voice_out = str(uuid.uuid4()) + ".mp3"
 
 
 try:
